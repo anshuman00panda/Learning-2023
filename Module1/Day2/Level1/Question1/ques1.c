@@ -2,6 +2,7 @@
 #include <stdint.h>
 
 int main() {
+    
     double x = 0.7;
     
     // Extracting the exponent part
@@ -14,9 +15,11 @@ int main() {
     
     // Printing in binary format
     printf("Exponent (binary): 0b");
+    
     for (int i = 10; i >= 0; i--) {
         printf("%d", (exponent >> i) & 1);
     }
+    
     printf("\n");
     
     return 0;
