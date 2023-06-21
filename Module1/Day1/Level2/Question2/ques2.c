@@ -37,22 +37,22 @@ int main() {
 
     switch (grade) {
         case 'A':
-            printf("Grade A\n");
+            printf("A\n");
             break;
         case 'B':
-            printf("Grade B\n");
+            printf("B\n");
             break;
         case 'C':
-            printf("Grade C\n");
+            printf("C\n");
             break;
         case 'D':
-            printf("Grade D\n");
+            printf("D\n");
             break;
         case 'E':
-            printf("Grade E\n");
+            printf("E\n");
             break;
         case 'F':
-            printf("Grade F\n");
+            printf("F\n");
             break;
         default:
             printf("Invalid grade\n");
